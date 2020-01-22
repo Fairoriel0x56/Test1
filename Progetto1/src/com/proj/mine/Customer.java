@@ -14,6 +14,8 @@ public class Customer {
 		this.email = email;
 		this.birthYear = birthYear;
 	}
+	
+	public Customer() {}
 
 	public String getFirstName() {
 		return firstName;
